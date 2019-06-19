@@ -1,9 +1,6 @@
 function addTwoDigits(num) {
-  let nums = num.toString().split("");
-
-  return nums.reduce((acc, val) => {
-    return parseInt(acc) + parseInt(val);
-  });
+  let numb = num.toString().split("");
+  return parseInt(numb[0]) + parseInt(numb[1]);
 }
 
 console.log(addTwoDigits(11));

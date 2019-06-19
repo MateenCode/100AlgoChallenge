@@ -12,7 +12,8 @@ adjacentElementsProduct(inputArray) = 21.
 7 and 3 produce the largest product.
 
 **Hints**
--   None
+
+- None
 
 **Input/Output**
 
@@ -21,7 +22,7 @@ adjacentElementsProduct(inputArray) = 21.
 
 An array of integers containing at least two elements.
 
-*Guaranteed constraints:*
+_Guaranteed constraints:_
 
 2 ≤ inputArray.length ≤ 10,
 -1000 ≤ inputArray[i] ≤ 1000.
